@@ -15,6 +15,5 @@
 		- IApplicationBuilder app ve IWebHostEnvironment env adında 2 parametre alır.
 		- environment interface ile development veya production ortamında olup olmama durumuna göre exception handler tanımlaması gibi çeşitli tanımlamalar yapılır.
 		- app interface ile ise environment durumuna göre exception durumunda gerekli yönlendirmenin yapılması, routing mekanizmasının tanımlanması/yapılandırılması gibi çeşitli http request pipeline konfigürasyonu yapılır. Kısaca app ile bir http request karşısında nasıl bir response verilmeli bu konuların tanımlaması yapılır. Ayrıca middleware tanımlamaları da burada yapılır. Authentication, authorization, sessions, routing mekanizmaları da birer middlware olarak değerlendirilir.
-
 		- Routing & Endpoints
-			  - Öncelikle app.UseRouting(); kullanımı ile routing mekanizması middleware pipeline'a eklenir.
+			- Öncelikle app.UseRouting(); kullanımı ile routing mekanizması middleware pipeline'a eklenir.
