@@ -1,4 +1,5 @@
 # .net-core-notlar
+## dotnet core mvc
 - project file
 	- targetframework->netcoreapp5.0
 	- itemgroup->nuget paketler burada
